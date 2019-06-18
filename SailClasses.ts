@@ -48,3 +48,20 @@ class RaceResult
     }
 }
 
+class Boat
+{
+    BoatID: number;
+    HelmName: string;
+    CrewName: string;
+    PY: number;
+    BoatClass: string;
+
+    constructor(id: number, helmName: string, crewName: string, py: number, boatClass: string)
+    {
+        this.BoatID = id;
+        this.BoatClass = boatClass;
+        this.HelmName = helmName;
+        this.CrewName = crewName;
+        this.PY = py;
+    }
+}
