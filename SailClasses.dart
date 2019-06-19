@@ -1,77 +1,78 @@
 class Competition {
-  String Name;
-  DateTime StartDate;
-  DateTime EndDate;
-  List<Race> Races = new List<Race>();
+  String name;
+  DateTime startDate;
+  DateTime endDate;
+  List<Race> races = new List<Race>();
 
-  Competiton(String name, DateTime start, DateTime end) {
-    this.Name = name;
-    this.StartDate = start;
-    this.EndDate = end;
+  Competition(String name, DateTime start, DateTime end) {
+    this.name = name;
+    this.startDate = start;
+    this.endDate = end;
   }
 
   String toString() {
-    return "Competion ${this.Name} starts on ${this.StartDate} and ends on ${this.EndDate}. It has ${this.Races.length} races";
+    return "Competion ${this.name} starts on ${this.startDate} and ends on ${this.endDate}. It has ${this.races.length} races";
   }
 }
 
 class Boat {
-  int BoatID;
-  String HelmName;
-  String CrewName;
-  int PY;
-  String BoatClass;
+  int boatID;
+  String helmName;
+  String crewName;
+  int pY;
+  String boatClass;
 
   Boat(int id, String helmName, String crewName, int py, String boatClass) {
-    this.BoatID = id;
-    this.BoatClass = boatClass;
-    this.HelmName = helmName;
-    this.CrewName = crewName;
-    this.PY = py;
+    this.boatID = id;
+    this.helmName = boatClass;
+    this.helmName = helmName;
+    this.crewName = crewName;
+    this.pY = py;
   }
 
   String toString() {
-    return "Boat with id ${this.BoatID}, helmed by ${this.HelmName}";
+    return "Boat with id ${this.boatID}, helmed by ${this.helmName}";
   }
 }
 
+
 class Race {
-  int RaceID;
-  DateTime RaceDate;
-  List<RaceResult> Results = new List<RaceResult>();
+  int raceID;
+  DateTime raceDate;
+  List<RaceResult> results = new List<RaceResult>();
 
   Race(int id, DateTime date) {
-    this.RaceID = id;
-    this.RaceDate = date;
+    this.raceID = id;
+    this.raceDate = date;
   }
 
   String toString() {
-    return "This is a Race with id:${this.RaceID}, starting on ${this.RaceDate.toString()}";
+    return "This is a Race with id:${this.raceID}, starting on ${this.raceDate.toString()}";
   }
 }
 
 class RaceResult {
-  int BoatID;
-  int Rank;
-  int ElapsedTime;
-  int Laps;
-  int CorrectedTime;
-  int Points;
-  String SpecialMentions;
+  int boatID;
+  int rank;
+  int elapsedTime;
+  int laps;
+  int correctedTime;
+  int points;
+  String specialMentions;
 
   RaceResult(int id, int rank, int elapsed, int laps, int corrected, int points,
       String mentions) {
-    this.BoatID = id;
-    this.Rank = rank;
-    this.ElapsedTime = elapsed;
-    this.Laps = laps;
-    this.CorrectedTime = corrected;
-    this.Points = points;
-    this.SpecialMentions = mentions;
+    this.boatID = id;
+    this.rank = rank;
+    this.elapsedTime = elapsed;
+    this.laps = laps;
+    this.correctedTime = corrected;
+    this.points = points;
+    this.specialMentions = mentions;
   }
 
   String toString() {
-    return "The boat with id ${this.BoatID} finished on rank ${this.Rank} with ${this.Points} points";
+    return "The boat with id ${this.boatID} finished on rank ${this.rank} with ${this.points} points";
   }
 }
 
