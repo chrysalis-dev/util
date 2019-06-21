@@ -3,25 +3,25 @@
     "competition_name" : {
       "boats" : [ {
         "Class" : "Boat Type #1",
-        "Crewname" : "Wonderland",
+        "CrewName" : "Wonderland",
         "HelmName" : "Alice",
         "PY" : 0,
         "SailNo" : 1
       }, {
         "Class" : "Boat Type #2",
-        "Crewname" : "Builder",
+        "CrewName" : "Builder",
         "HelmName" : "Bob",
         "PY" : 0,
         "SailNo" : 2
       }, {
         "Class" : "Boat Type #3",
-        "Crewname" : "Biblical",
+        "CrewName" : "Biblical",
         "HelmName" : "Cain",
         "PY" : 0,
         "SailNo" : 3
       }, {
         "Class" : "Boat Type #4",
-        "Crewname" : "Inferno",
+        "CrewName" : "Inferno",
         "HelmName" : "Dante",
         "PY" : 0,
         "SailNo" : 4
