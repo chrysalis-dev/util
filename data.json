@@ -15,8 +15,8 @@
         "SailNo" : 2
       }, {
         "Class" : "Boat Type #3",
-        "CrewName" : "Biblical",
-        "HelmName" : "Cain",
+        "CrewName" : "Web",
+        "HelmName" : "Charlotte",
         "PY" : 0,
         "SailNo" : 3
       }, {
@@ -29,32 +29,32 @@
       "races" : [ {
         "cancelled" : 0,
         "results" : [ {
-          "corrected_time" : 0,
-          "elapsed_time" : 0,
+          "correctedTime" : 0,
+          "elapsedTime" : 0,
           "id" : 4,
           "laps" : 1,
           "mention" : "none",
           "points" : 0,
           "rank" : 1
         }, {
-          "corrected_time" : 0,
-          "elapsed_time" : 0,
+          "correctedTime" : 0,
+          "elapsedTime" : 0,
           "id" : 1,
           "laps" : 1,
           "mention" : "none",
           "points" : 0,
           "rank" : 2
         }, {
-          "corrected_time" : 0,
-          "elapsed_time" : 0,
+          "correctedTime" : 0,
+          "elapsedTime" : 0,
           "id" : 2,
           "laps" : 1,
           "mention" : "none",
           "points" : 0,
           "rank" : 3
         }, {
-          "corrected_time" : 0,
-          "elapsed_time" : 0,
+          "correctedTime" : 0,
+          "elapsedTime" : 0,
           "id" : 3,
           "laps" : 1,
           "mention" : "none",
@@ -64,32 +64,32 @@
       }, {
         "cancelled" : 0,
         "results" : [ {
-          "corrected_time" : 0,
-          "elapsed_time" : 0,
+          "correctedTime" : 0,
+          "elapsedTime" : 0,
           "id" : 4,
           "laps" : 1,
           "mention" : "none",
           "points" : 0,
           "rank" : 4
         }, {
-          "corrected_time" : 0,
-          "elapsed_time" : 0,
+          "correctedTime" : 0,
+          "elapsedTime" : 0,
           "id" : 1,
           "laps" : 1,
           "mention" : "none",
           "points" : 0,
           "rank" : 3
         }, {
-          "corrected_time" : 0,
-          "elapsed_time" : 0,
+          "correctedTime" : 0,
+          "elapsedTime" : 0,
           "id" : 2,
           "laps" : 1,
           "mention" : "none",
           "points" : 0,
           "rank" : 2
         }, {
-          "corrected_time" : 0,
-          "elapsed_time" : 0,
+          "correctedTime" : 0,
+          "elapsedTime" : 0,
           "id" : 3,
           "laps" : 1,
           "mention" : "none",
