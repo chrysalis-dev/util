@@ -1,175 +1,129 @@
-// Schema for the structure of the databse
 {
-    "data":
-    [
-        {
-            "competition_name":
-            {
-                "standings": [
-                    {
-                        "id": 1,
-                        "rank": 1,
-                        "score": [
-                            0,
-                            0,
-                            0
-                        ],
-                        "total": 0,
-                        "nett": 0
-                    },
-                    {
-                        "id": 2,
-                        "rank": 1,
-                        "score": [
-                            0,
-                            0,
-                            0
-                        ],
-                        "total": 0,
-                        "nett": 0
-                    },
-                    {
-                        "id": 3,
-                        "rank": 1,
-                        "score": [
-                            0,
-                            0,
-                            0
-                        ],
-                        "total": 0,
-                        "nett": 0
-                    },
-                    {
-                        "id": 4,
-                        "rank": 1,
-                        "score": [
-                            0,
-                            0,
-                            0
-                        ],
-                        "total": 0,
-                        "nett": 0
-                    }
-                ],
-                "races": [
-                    {
-                        "cancelled": 0,
-                        "results": [
-                            {
-                                "id": 4,
-                                "rank": 1,
-                                "elapsed_time": 0,
-                                "laps": 1,
-                                "corrected_time": 0,
-                                "points": 0,
-                                "mention": "none"
-                            },
-                            {
-                                "id": 1,
-                                "rank": 2,
-                                "elapsed_time": 0,
-                                "laps": 1,
-                                "corrected_time": 0,
-                                "points": 0,
-                                "mention": "none"
-                            },
-                            {
-                                "id": 2,
-                                "rank": 3,
-                                "elapsed_time": 0,
-                                "laps": 1,
-                                "corrected_time": 0,
-                                "points": 0,
-                                "mention": "none"
-                            },
-                            {
-                                "id": 3,
-                                "rank": 4,
-                                "elapsed_time": 0,
-                                "laps": 1,
-                                "corrected_time": 0,
-                                "points": 0,
-                                "mention": "none"
-                            }
-                        ]
-                    },
-                    {
-                        "cancelled": 0,
-                        "results": [
-                            {
-                                "id": 4,
-                                "rank": 4,
-                                "elapsed_time": 0,
-                                "laps": 1,
-                                "corrected_time": 0,
-                                "points": 0,
-                                "mention": "none"
-                            },
-                            {
-                                "id": 1,
-                                "rank": 3,
-                                "elapsed_time": 0,
-                                "laps": 1,
-                                "corrected_time": 0,
-                                "points": 0,
-                                "mention": "none"
-                            },
-                            {
-                                "id": 2,
-                                "rank": 2,
-                                "elapsed_time": 0,
-                                "laps": 1,
-                                "corrected_time": 0,
-                                "points": 0,
-                                "mention": "none"
-                            },
-                            {
-                                "id": 3,
-                                "rank": 1,
-                                "elapsed_time": 0,
-                                "laps": 1,
-                                "corrected_time": 0,
-                                "points": 0,
-                                "mention": "none"
-                            }
-                        ]
-                    },
-                    {
-                        "cancelled": 1,
-                        "results": null
-                    }
-                ],
-                "boats": [
-                    {
-                        "SailNo": 1,
-                        "Class": "Boat Type #1",
-                        "HelmName": "Alice",
-                        "Crewname": "Wonderland",
-                        "PY": 0
-                    },
-                    {
-                        "SailNo": 2,
-                        "Class": "Boat Type #2",
-                        "HelmName": "Bob",
-                        "Crewname": "Builder",
-                        "PY": 0
-                    },
-                    {
-                        "SailNo": 3,
-                        "Class": "Boat Type #3",
-                        "HelmName": "Cain",
-                        "Crewname": "Biblical",
-                        "PY": 0
-                    },
-                    {
-                        "SailNo": 4,
-                        "Class": "Boat Type #4",
-                        "HelmName": "Dante",
-                        "Crewname": "Inferno",
-                        "PY": 0
-                    }
-                ]
-            }
-        }
-    ]
+  "data" : [ {
+    "competition_name" : {
+      "boats" : [ {
+        "Class" : "Boat Type #1",
+        "Crewname" : "Wonderland",
+        "HelmName" : "Alice",
+        "PY" : 0,
+        "SailNo" : 1
+      }, {
+        "Class" : "Boat Type #2",
+        "Crewname" : "Builder",
+        "HelmName" : "Bob",
+        "PY" : 0,
+        "SailNo" : 2
+      }, {
+        "Class" : "Boat Type #3",
+        "Crewname" : "Biblical",
+        "HelmName" : "Cain",
+        "PY" : 0,
+        "SailNo" : 3
+      }, {
+        "Class" : "Boat Type #4",
+        "Crewname" : "Inferno",
+        "HelmName" : "Dante",
+        "PY" : 0,
+        "SailNo" : 4
+      } ],
+      "races" : [ {
+        "cancelled" : 0,
+        "results" : [ {
+          "corrected_time" : 0,
+          "elapsed_time" : 0,
+          "id" : 4,
+          "laps" : 1,
+          "mention" : "none",
+          "points" : 0,
+          "rank" : 1
+        }, {
+          "corrected_time" : 0,
+          "elapsed_time" : 0,
+          "id" : 1,
+          "laps" : 1,
+          "mention" : "none",
+          "points" : 0,
+          "rank" : 2
+        }, {
+          "corrected_time" : 0,
+          "elapsed_time" : 0,
+          "id" : 2,
+          "laps" : 1,
+          "mention" : "none",
+          "points" : 0,
+          "rank" : 3
+        }, {
+          "corrected_time" : 0,
+          "elapsed_time" : 0,
+          "id" : 3,
+          "laps" : 1,
+          "mention" : "none",
+          "points" : 0,
+          "rank" : 4
+        } ]
+      }, {
+        "cancelled" : 0,
+        "results" : [ {
+          "corrected_time" : 0,
+          "elapsed_time" : 0,
+          "id" : 4,
+          "laps" : 1,
+          "mention" : "none",
+          "points" : 0,
+          "rank" : 4
+        }, {
+          "corrected_time" : 0,
+          "elapsed_time" : 0,
+          "id" : 1,
+          "laps" : 1,
+          "mention" : "none",
+          "points" : 0,
+          "rank" : 3
+        }, {
+          "corrected_time" : 0,
+          "elapsed_time" : 0,
+          "id" : 2,
+          "laps" : 1,
+          "mention" : "none",
+          "points" : 0,
+          "rank" : 2
+        }, {
+          "corrected_time" : 0,
+          "elapsed_time" : 0,
+          "id" : 3,
+          "laps" : 1,
+          "mention" : "none",
+          "points" : 0,
+          "rank" : 1
+        } ]
+      }, {
+        "cancelled" : 1
+      } ],
+      "standings" : [ {
+        "id" : 1,
+        "nett" : 0,
+        "rank" : 1,
+        "total" : 0
+      }, {
+        "id" : 2,
+        "nett" : 0,
+        "rank" : 1,
+        "total" : 0
+      }, {
+        "id" : 3,
+        "nett" : 0,
+        "rank" : 1,
+        "total" : 0
+      }, {
+        "id" : 4,
+        "nett" : 0,
+        "rank" : 1,
+        "total" : 0
+      } ]
+    }
+  }, {
+    "name" : {
+      "boats" : [ 0 ]
+    }
+  } ]
 }
