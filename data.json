@@ -1,8 +1,6 @@
 {
   "data": [{
     "competition_name": {
-      "startDate": "2000-07-20 20:18",
-      "endDate": "2000-07-20 20:19",
       "boats": [{
         "Class": "Boat Type #1",
         "CrewName": "Wonderland",
@@ -28,7 +26,10 @@
         "PY": 0,
         "SailNo": 4
       }],
+      "endDate": "2000-07-20 20:19",
       "races": [{
+        "id": "0",
+        "raceDate": "2000-07-20",
         "cancelled": 0,
         "results": [{
           "correctedTime": 0,
@@ -64,6 +65,8 @@
           "rank": 4
         }]
       }, {
+        "id": "1",
+        "raceDate": "2000-07-20",
         "cancelled": 0,
         "results": [{
           "correctedTime": 0,
@@ -99,6 +102,8 @@
           "rank": 1
         }]
       }, {
+        "id": "2",
+        "raceDate": "2000-07-20",
         "cancelled": 1
       }],
       "standings": [{
@@ -121,7 +126,8 @@
         "nett": 0,
         "rank": 1,
         "total": 0
-      }]
+      }],
+      "startDate": "2000-07-20 20:18"
     }
   }, {
     "name": {
