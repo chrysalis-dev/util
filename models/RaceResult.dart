@@ -26,10 +26,16 @@ class RaceResult {
   }
 
   String toString() {
-    return "The boat with id ${this.boatID} finished on rank ${this.rank} with ${this.points} points";
+    return "\n" +
+        "Boat with id ${this.boatID}\n" +
+        "Finished on rank ${this.rank}\n" +
+        "With ${this.points} points\n" +
+        "It did ${this.laps}\n" +
+        "In ${this.elapsedTime} minutes (converted to ${this.correctedTime})\n" +
+        "Special mentions: ${this.specialMentions}\n";
   }
 
-  static List<RaceResult>  listFromDbObject(List<DbRaceResult> results) {
+  static List<RaceResult> listFromDbObject(List<DbRaceResult> results) {
     List<RaceResult> raceResults = new List<RaceResult>();
     for (DbRaceResult result in results) {
       raceResults.add(RaceResult.fromDbObject(result));
