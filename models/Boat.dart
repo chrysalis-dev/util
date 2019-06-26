@@ -9,7 +9,7 @@ class Boat {
 
   Boat(int id, String helmName, String crewName, int py, String boatClass) {
     this.boatID = id;
-    this.helmName = boatClass;
+    this.boatClass = boatClass;
     this.helmName = helmName;
     this.crewName = crewName;
     this.py = py;
@@ -21,6 +21,6 @@ class Boat {
   }
 
   String toString() {
-    return "Boat with id ${this.boatID}, helmed by ${this.helmName}";
+    return "Boat with id ${this.boatID}\nHelmed by ${this.helmName}\n";
   }
 }
