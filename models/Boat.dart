@@ -22,10 +22,10 @@ class Boat {
 
   String toString() {
     return "\n" +
-        "Boat with id ${this.boatID}\n" +
-        "Of class ${this.boatClass}\n" +
-        "Helmed by ${this.helmName}\n" +
-        "From crew ${this.crewName}\n" +
-        "PY = ${this.py}\n";
+        " Boat with id ${this.boatID}\n" +
+        " Of class ${this.boatClass}\n" +
+        " Helmed by ${this.helmName}\n" +
+        " From crew ${this.crewName}\n" +
+        " PY = ${this.py}\n";
   }
 }

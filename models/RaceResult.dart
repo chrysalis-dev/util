@@ -27,12 +27,12 @@ class RaceResult {
 
   String toString() {
     return "\n" +
-        "Boat with id ${this.boatID}\n" +
-        "Finished on rank ${this.rank}\n" +
-        "With ${this.points} points\n" +
-        "It did ${this.laps}\n" +
-        "In ${this.elapsedTime} minutes (converted to ${this.correctedTime})\n" +
-        "Special mentions: ${this.specialMentions}\n";
+        " Boat with id ${this.boatID}\n" +
+        " Finished on rank ${this.rank}\n" +
+        " With ${this.points} points\n" +
+        " It did ${this.laps}\n" +
+        " In ${this.elapsedTime} minutes (converted to ${this.correctedTime})\n" +
+        " Special mentions: ${this.specialMentions}\n";
   }
 
   static List<RaceResult> listFromDbObject(List<DbRaceResult> results) {

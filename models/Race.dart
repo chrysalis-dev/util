@@ -28,9 +28,9 @@ class Race {
 
   String toString() {
     return "\n" +
-        "Race with id:${this.raceID}\n" +
-        (this.cancelled ? "This race is cancelled\n" : "") +
-        "Start on ${this.raceDate.toString()}\n" +
-        "${this.results.length} boats participated\n";
+        " Race with id:${this.raceID}\n" +
+        (this.cancelled ? " This race is cancelled\n" : "") +
+        " Start on ${this.raceDate.toString()}\n" +
+        " ${this.results.length} boats participated\n";
   }
 }
