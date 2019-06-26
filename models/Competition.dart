@@ -20,6 +20,10 @@ class Competition {
   }
 
   String toString() {
-    return "Competion ${this.name} starts on ${this.startDate} and ends on ${this.endDate}. It has ${this.races.length} races";
+    return "\n" +
+        "Competion ${this.name}\n" +
+        "Starts on ${this.startDate}\n" +
+        "Ends on ${this.endDate}\n" +
+        "It has ${this.races.length} races\n";
   }
 }
