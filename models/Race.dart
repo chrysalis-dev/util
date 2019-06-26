@@ -20,15 +20,17 @@ class Race {
 
   factory Race.fromDbObject(DbRace race) {
     return Race.buildRace(
-      cancelled: race.cancelled,
-      raceID: race.id,
-      raceDate: race.raceDate,
-      results: RaceResult.listFromDbObject(race.results)
-    );
+        cancelled: race.cancelled,
+        raceID: race.id,
+        raceDate: race.raceDate,
+        results: RaceResult.listFromDbObject(race.results));
   }
 
-
   String toString() {
-    return "This is a Race with id:${this.raceID}, starting on ${this.raceDate.toString()}";
+    return "\n" +
+        "Race with id:${this.raceID}\n" +
+        (this.cancelled ? "This race is cancelled\n" : "") +
+        "Start on ${this.raceDate.toString()}\n" +
+        "${this.results.length} boats participated\n";
   }
 }
