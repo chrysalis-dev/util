@@ -28,4 +28,12 @@ class RaceResult {
   String toString() {
     return "The boat with id ${this.boatID} finished on rank ${this.rank} with ${this.points} points";
   }
+
+  static List<RaceResult>  listFromDbObject(List<DbRaceResult> results) {
+    List<RaceResult> raceResults = new List<RaceResult>();
+    for (DbRaceResult result in results) {
+      raceResults.add(RaceResult.fromDbObject(result));
+    }
+    return raceResults;
+  }
 }
