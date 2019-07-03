@@ -1,6 +1,6 @@
-import 'package:untitled/models/database/DbRace.dart';
+import 'package:untitled/database/db_race.dart';
 
-import 'RaceResult.dart';
+import 'race_result.dart';
 import 'package:uuid_enhanced/uuid.dart' show Uuid;
 import 'package:uuid_enhanced/uuid_util.dart' show UuidUtil;
 

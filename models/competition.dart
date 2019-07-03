@@ -1,4 +1,4 @@
-import 'package:untitled/models/database/DbCompetition.dart';
+import 'package:untitled/database/db_competition.dart';
 
 import 'Race.dart';
 

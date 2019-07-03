@@ -1,4 +1,4 @@
-import 'package:untitled/models/database/DbRaceResult.dart';
+import 'package:untitled/database/db_race_result.dart';
 
 class RaceResult {
   int boatID;
